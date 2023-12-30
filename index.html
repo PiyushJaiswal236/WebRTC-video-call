@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebRTC Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>WebRTC video call</h1>
+
+    <div class="cont">
+        <video id="localVideo" class="video" autoplay playsinline></video>
+        <video id="remoteVideo" class="video" autoplay playsinline></video>
+    </div>
+    <br>
+    <button id="rec">Start Screen rec</button>
+    <br>
+    <button id="start">generate offer</button>
+    <br>
+    <input type="text" name="" id="invite" >
+    <br>
+    <button id="ans">Answer</button>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>
